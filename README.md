@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./images/bilibilinagle.png" alt="CyberNagle" width="120"/>
-</p>
-
 <h1 align="center">CyberNagle</h1>
 
 <p align="center">
@@ -70,6 +66,10 @@ Go 实现的 coding agent — 组织的研发。
 | [build-ai-body](https://github.com/cybernagle/build-ai-body) | 给 AI 做身体 — 微信公众号归档 |
 
 ---
+
+<p align="center">
+  <img src="./images/bilibilinagle.png" alt="CyberNagle" width="120"/>
+</p>
 
 <p align="center">
   <sub>Built with ❤️ by <a href="https://github.com/cybernagle">CyberNagle</a></sub>
