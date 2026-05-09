@@ -10,20 +10,25 @@
 ## Agentic Company Roadmap
 
 ```
-                    ┌─────────────────┐
-                    │   Memory CLI    │  ← 公司的数据库/记忆系统
-                    │   Shared Memory │     Company's Brain
-                    └────────┬────────┘
+          ┌──────────────────────────────────────┐
+          │         Frontend Toolkit             │  ← Marketing / 对外触达
+          │         前端工具集                     │     Data-driven outreach
+          └──────────────────┬───────────────────┘
                              │
-          ┌──────────────────┼──────────────────┐
-          │                  │                  │
-┌─────────▼────────┐  ┌──────▼───────┐  ┌──────▼───────┐
-│   FingerSaver    │  │  Car Agent   │  │   Cos AI     │
-│   Organization   │  │  Sensors     │  │   R&D        │
-│   CTO + Ops      │  │  Physical    │  │   Coding     │
-└──────────────────┘  └──────────────┘  └──────────────┘
-          │                  │                  │
-          └──────────────────┼──────────────────┘
+          ┌──────────────────┴──────────────────┐
+          │                                      │
+┌─────────▼────────┐                   ┌─────────▼────────┐
+│   FingerSaver    │                   │   Car Agent      │
+│   Organization   │                   │   Sensors        │
+│   CTO + Ops      │                   │   Physical World │
+└─────────┬────────┘                   └─────────┬────────┘
+          │                                      │
+          └──────────────────┬───────────────────┘
+                             │ depends on
+          ┌──────────────────▼───────────────────┐
+          │           Memory CLI                 │  ← Data Analytics / 数据分析平台
+          │           数据分析平台                 │     Company's Brain
+          └──────────────────┬───────────────────┘
                              │
                     ┌────────▼────────┐
                     │  Guardrails     │  ← 风控/合规
@@ -56,12 +61,6 @@ Unified memory management CLI for AI agents — one brain, many hands.
 Raspberry Pi smart car — AI's interface to the physical world.
 树莓派智能小车 — AI 触达物理世界的接口。
 
-### Cos AI — R&D Agent
-> [Repo](https://github.com/cybernagle/cos) | `brew install cybernagle/cos/cos`
-
-Go-based coding agent with CLI + TUI — the org's developer.
-Go 实现的 coding agent — 组织的研发。
-
 ---
 
 ## Other Projects
@@ -70,6 +69,7 @@ Go 实现的 coding agent — 组织的研发。
 |---------|-------------|
 | [OptiTranslate](https://github.com/cybernagle/OptiTranslate) | macOS menu-bar AI translator |
 | [Kokoros](https://github.com/cybernagle/Kokoros) | Kokoro TTS in Rust — realtime speech |
+| [Cos AI](https://github.com/cybernagle/cos) | Go-based coding agent with CLI + TUI |
 | [build-ai-body](https://github.com/cybernagle/build-ai-body) | 给 AI 做身体 — 微信公众号归档 |
 
 ---
