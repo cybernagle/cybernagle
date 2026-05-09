@@ -45,10 +45,10 @@ Manage multiple coding agents in parallel — the org's engineering manager.
 分屏终端管理多个 coding agent — 组织的工程经理。
 
 ### Memory CLI — Company Memory
-> *Coming Soon*
+> [Repo](https://github.com/cybernagle/memory-cli)
 
-Shared memory layer across all agents — one brain, many hands.
-所有 Agent 共享的记忆系统 — 一个大脑，多双手。
+Unified memory management CLI for AI agents — one brain, many hands.
+所有 Agent 共享的统一记忆系统 — 一个大脑，多双手。
 
 ### Car Agent — Physical World Sensors
 > [Repo](https://github.com/cybernagle/car-agent)
