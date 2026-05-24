@@ -9,42 +9,8 @@
 
 ## Agentic Company Roadmap
 
-```
-          ┌──────────────────────────────────────┐
-          │         Frontend Toolkit             │  ← Marketing / 对外触达
-          │         前端工具集                     │     Data-driven outreach
-          └──────────────────┬───────────────────┘
-                             │
-          ┌──────────────────┴──────────────────┐
-          │                                      │
-┌─────────▼────────┐                   ┌─────────▼────────┐
-│   FingerSaver    │                   │   Car Agent      │
-│   Organization   │                   │   Sensors        │
-│   CTO + Ops      │                   │   Physical World │
-└─────────┬────────┘                   └─────────┬────────┘
-          │                                      │
-          └──────────────────┬───────────────────┘
-                             │ depends on
-          ┌──────────────────▼───────────────────┐
-          │           Memory CLI                 │  ← Data Analytics / 数据分析平台
-          │           数据分析平台                 │     Company's Brain
-          └──────────────────┬───────────────────┘
-                             │
-                    ┌────────▼────────┐
-                    │  Guardrails     │  ← 风控/合规
-                    │  Observability  │  ← 自省/看板
-                    └────────┬────────┘
-                             │
-  ═══════════════════════════╪═══════════════════════
-              ┌──────────────▼──────────────┐
-              │          AI 基座             │
-              │   Foundation Layer          │
-              │  LLM · RAG · Inference      │
-              └─────────────────────────────┘
-```
-
-### FingerSaver — CTO & Ops Agent
-> [Repo](https://github.com/cybernagle/fingersaver) | `brew install cybernagle/tap/fingersaver`
+### makro — CTO & Ops Agent
+> [Repo](https://github.com/cybernagle/makro) 
 
 Manage multiple coding agents in parallel — the org's engineering manager.
 分屏终端管理多个 coding agent — 组织的工程经理。
